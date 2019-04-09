@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void dropIn(View view){
+    public void dropIn(View view) {
         ImageView counter = (ImageView) view;
         counter.setTranslationY(-1000f);
 
@@ -24,5 +24,5 @@ public class MainActivity extends AppCompatActivity {
         counter.setImageResource(R.drawable.yellow);
         counter.animate().translationYBy(1000f).setDuration(300);
     }
-//test
+    
 }
