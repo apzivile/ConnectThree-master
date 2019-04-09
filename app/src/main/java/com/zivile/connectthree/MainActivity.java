@@ -24,5 +24,5 @@ public class MainActivity extends AppCompatActivity {
         counter.setImageResource(R.drawable.yellow);
         counter.animate().translationYBy(1000f).setDuration(300);
     }
-
+//test
 }
